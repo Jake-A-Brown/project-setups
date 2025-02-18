@@ -8,7 +8,9 @@ import MernSetup from "../mernsetup/mernsetup";
 const docLinks = [
     { name: "React Official Docs", url: "https://react.dev" },
     { name: "Three.js Fiber Docs", url: "https://docs.pmnd.rs/react-three-fiber" },
-    { name: "MERN Stack Guide", url: "https://www.mongodb.com/mern-stack" },
+    { name: "MERN Stack Docs", url: "https://www.mongodb.com/mern-stack" },
+    { name: 'Star Wars Api Docs', url: "https://swapi.py4e.com/"},
+    { name: 'Lord of the Rings Api Docs', url: 'https://the-one-api.dev/'},
 ];
 
 const setupGuides = [

@@ -9,7 +9,7 @@ import Footer from './components/common/footer';
 
 function App() {
   return (
-    <div>
+    <>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/reactsetup' element={<ReactSetup />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path='/mernsetup' element={<MernSetup />} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

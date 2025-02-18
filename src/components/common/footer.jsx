@@ -13,13 +13,11 @@ const Footer = () => {
 const styles = {
     footer: {
         width: "100%",
+        height: '10vh',
         textAlign: "center",
         padding: "10px",
         backgroundColor: "#222",
         color: "#fff",
-        position: "fixed",
-        bottom: 0,
-        left: 0,
     }
 };
 

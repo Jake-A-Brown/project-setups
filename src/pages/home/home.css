@@ -30,7 +30,7 @@
 .side-menu {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     width: 15vw;
     padding: 10px;
     background-color: #f4f4f4;
@@ -63,10 +63,11 @@ ul{
   transform: scale(1.05);
 }
 
-.menu-item {
+.menu-item, a {
   cursor: pointer;
   padding: 8px;
   list-style: none;
+  text-decoration: none;
   background-color: #e0e0e0;
   margin: 5px 0;
   text-align: center;
