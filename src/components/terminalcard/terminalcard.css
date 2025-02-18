@@ -1,0 +1,29 @@
+.terminal-card {
+    display: flex;
+    flex-direction: column;
+    /* align-items:center; */
+    width: fit-content;
+    min-width: 50%;
+    background-color: black;
+    color: rgb(241, 227, 20);
+    font-family: "Fira Code";
+    font-size: larger;
+    padding: 0.66rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+  }
+  
+  .copy-button {
+    display: flex;
+    align-self: flex-end;
+    background: #444;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .copy-button:hover {
+    background: #666;
+  }
